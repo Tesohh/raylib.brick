@@ -72,7 +72,7 @@ RAYLIB_VERSION        = 5.5.0
 RAYLIB_API_VERSION    = 550
 
 # Define raylib source code path
-RAYLIB_SRC_PATH      ?= ../src
+RAYLIB_SRC_PATH      ?= ../raylib
 
 # Define output directory for compiled library, defaults to src directory
 # NOTE: If externally provided, make sure directory exists

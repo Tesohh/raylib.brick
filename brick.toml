@@ -1,0 +1,8 @@
+[brick]
+name = "raylib"
+kind = "binary"
+lang = "c"
+edition = "gnu99"
+overrides.build = "cd src/raylib; make PLATFORM=PLATFORM_DESKTOP"
+overrides.include_dir = "src"
+overrides.lib_dir = "src"
